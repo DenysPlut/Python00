@@ -8,6 +8,7 @@ class Book():
          self.pages = pages
          self.price = price
 
+
     #TODO: create instance methods
     def getprice(self):
         if hasattr(self, "_discount"):
@@ -33,4 +34,6 @@ print(book1.getprice())
 print(book2.getprice())
 book2.setdiscount(0.25)
 print(book2.getprice())
+
+
 
